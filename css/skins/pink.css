@@ -16,6 +16,7 @@
 
 .side .nav-toggler span,
 .side .nav-toggler span::before,
-.side .nav-toggler span::after {
+.side .nav-toggler span::after,
+.home .intro .social-links a {
     background-color: #ec1839;
 }
