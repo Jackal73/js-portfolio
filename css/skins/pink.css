@@ -9,12 +9,14 @@
     border-right: 4px solid #ec1839;
 }
 
+.service .service-item .service-item-inner .icon .fa,
 .about .about-content .about-text h3 span,
 .side .nav li a:hover,
 .side .nav li a.active {
     color: #ec1839;
 }
 
+.service .service-item .service-item-inner:hover .icon,
 .about .about-content .timeline .circle-dot,
 .about .about-content .timeline .timeline-item::before,
 .about .about-content .skills .skill-item .progress .progress-in,
