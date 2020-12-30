@@ -1,0 +1,15 @@
+
+.side .logo a::before {
+    border-top: 4px solid #ec1839;
+    border-left: 4px solid #ec1839;
+}
+
+.side .logo a::after {
+    border-bottom: 4px solid #ec1839;
+    border-right: 4px solid #ec1839;
+}
+
+.side .nav li a:hover,
+.side .nav li a.active {
+    color: #ec1839;
+}
