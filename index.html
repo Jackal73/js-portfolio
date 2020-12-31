@@ -48,7 +48,7 @@
         <div class="main-content">
 
           <!-- Home Section -->
-          <section class="home section hidden">
+          <section class="home section">
             <div class="container">
               <div class="intro">
                 <img src="images/Shawn_profile.jpg" alt="profile" class="shadow-dark"/>   <!-- height="256" width="250" -->
@@ -67,7 +67,7 @@
           <!-- End Home Section -->
 
           <!-- About Section-->
-          <section class="about section hidden">
+          <section class="about section">
             <div class="container">
               <div class="row">
                 <div class="section-title padd-15">
@@ -470,15 +470,15 @@
       <div class="lightbox">
         <div class="lightbox-content">
           <div class="lightbox-close">&times;</div>
-          <img src="images/portfolio/grandHotel.png" class="lightbox-img" alt="">
+          <img src="images/portfolio/grandHotel.png" alt="" class="lightbox-img" onclick="nextItem()">
           <div class="lightbox-caption">
-            <div class="caption-text">Web Development</div>
-            <div class="caption-counter">1 of 7</div>
+            <div class="caption-text"></div>
+            <div class="caption-counter"></div>
           </div>
         </div>
         <div class="lightbox-controls">
-          <div class="prev-item"><i class="fa fa-angle-left"></i></div>
-          <div class="next-item"><i class="fa fa-angle-right"></i></div>
+          <div class="prev-item" onclick="prevItem()"><i class="fa fa-angle-left"></i></div>
+          <div class="next-item" onclick="nextItem()"><i class="fa fa-angle-right"></i></div>
         </div>
       </div>
     <!-- End Lightbox -->
