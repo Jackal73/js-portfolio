@@ -627,6 +627,40 @@
      margin-bottom: 30px;
  }
 
+ .portfolio .portfolio-item.hide {
+     display: none;
+ }
+
+ .portfolio .portfolio-item.show {
+     display: block;
+     animation: showItem 0.5s ease;
+ }
+
+ @-webkit-keyframes showItem {
+     0%{
+         -webkit-transform: scale(0.8);
+         transform: scale(0.8);
+         opacity: 0;
+     }
+     100%{
+         -webkit-transform: scale(1);
+         transform: scale(1);
+         opacity: 1;
+     }
+ }
+ @keyframes showItem {
+     0%{
+         -webkit-transform: scale(0.8);
+         transform: scale(0.8);
+         opacity: 0;
+     }
+     100%{
+         -webkit-transform: scale(1);
+         transform: scale(1);
+         opacity: 1;
+     }
+ }
+
  .portfolio .portfolio-item-inner {
     border: 6px solid #fdf9ff;
      border-radius: 10px;
