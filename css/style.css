@@ -816,7 +816,7 @@
      width: 100%;
      display: -ms-flexbox;
      display: flex;
-     -ms-flex-pack: space-between;
+     -ms-flex-pack: distribute;
      justify-content: space-between;
      font-size: 16px;
      color: #ffffff;
