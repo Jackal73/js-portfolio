@@ -1,5 +1,5 @@
 
- /* Font Awesome Free Icon */
+ /* Font Awesome Icons */
  @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
  /* Google fonts */
@@ -29,7 +29,7 @@
 
  .section {
      background-color: #f2f2fc;
-     min-height: 80vh;
+     min-height: 100vh;
      display: block;
      padding: 0 30px;
  }
