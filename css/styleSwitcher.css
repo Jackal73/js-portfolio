@@ -30,8 +30,9 @@
 }
 
 .style-switcher ul {
-    margin: 0;
+    margin: 0 0 5px 0;
     padding: 0;
+    display: block;
     list-style: none;
 }
 
