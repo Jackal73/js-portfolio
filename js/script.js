@@ -1,6 +1,14 @@
 
+    window.addEventListener("load", function() {
+        document.querySelector(".preloader").classList.add("opacity-0");
 
-// Portfolio Item Filter //
+        setTimeout(function() {
+            document.querySelector(".preloader").style.display = "none";
+        }, 1000)
+    })
+
+
+    // Portfolio Item Filter //
 
     const filterContainer = document.querySelector(".portfolio-filter"),
           filterBtns = filterContainer.children,
@@ -128,6 +136,8 @@
         const target = element.getAttribute("href").split("#")[1];
         document.querySelector("#" + target).classList.add("active");
     }
+
+    
 
     const navTogglerBtn = document.querySelector(".nav-toggler"),
           side = document.querySelector(".side");
