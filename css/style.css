@@ -288,8 +288,9 @@
      z-index: 11;
      border-radius: 5px;
      background-color: #fdf9ff;
-     display: -ms-flexbox;
-     display: flex;
+     /*display: -ms-flexbox;*/
+     /*display: flex;*/
+     display: none;
      -ms-flex-align: center;
      align-items: center;
      -ms-flex-pack: center;
@@ -304,8 +305,6 @@
      display: inline-block;
      position: relative;
  }
-
-
 
  .side .nav-toggler.open span {
      background-color: transparent;
