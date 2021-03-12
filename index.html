@@ -7,7 +7,7 @@
 
        <!-- CSS Files -->
       <link rel="stylesheet" href="css/style.css" type="text/css">
-      <link rel="stylesheet" href="css/skins/pink.css" type="text/css">
+      <link rel="stylesheet" href="css/skins/green.css" type="text/css">
 
       <!-- Live Style Switcher - Demo Only -->
       <link rel="stylesheet" class="alternate-style" title="pink" href="css/skins/pink.css" type="text/css" disabled>
@@ -35,31 +35,32 @@
 
         <!-- Side -->
         <div class="side">
-
-          <!-- Logo -->
-          <div class="logo">
-            <a href="#">Shawn</a>
-          </div>
-
           <!-- Navigation 'Toggler' Button -->
           <div class="nav-toggler">
             <span></span>
           </div>
+          <div class="side-inner">
 
-          <!-- Navigation -->
-          <ul class="nav">
-            <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
-            <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
-            <li><a href="#services"><i class="fa fa-list"></i> Services</a></li>
-            <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
-            <li><a href="#blog"><i class="fa fa-envelope"></i> Blog</a></li>
-            <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
-          </ul>
-          <!-- End Navigation -->
+            <!-- Logo -->
+            <div class="logo">
+              <a href="#">Shawn</a>
+            </div>
 
-          <!-- Copyright -->
-          <div class="copyright-text">
-            &copy; 2020 kblDevelopers
+            <!-- Navigation -->
+            <ul class="nav">
+              <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+              <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+              <li><a href="#services"><i class="fa fa-list"></i> Services</a></li>
+              <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+              <li><a href="#blog"><i class="fa fa-envelope"></i> Blog</a></li>
+              <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+            </ul>
+            <!-- End Navigation -->
+
+            <!-- Copyright -->
+            <div class="copyright-text">
+              &copy; 2020 kblDevelopers
+            </div>
           </div>
         </div>
         <!-- End Side -->
@@ -144,31 +145,38 @@
                     <div class="skills padd-15">
                       <div class="row">
                         <div class="skill-item padd-15">
-                          <h5>JavaScript</h5>
+                          <h5>HTML5</h5>
                           <div class="progress">
-                            <div class="progress-in" style="width: 60%"></div>
-                              <div class="skill-percent">60%</div>
+                            <div class="progress-in" style="width: 90%"></div>
+                              <div class="skill-percent">90%</div>
                           </div>
                         </div>
                         <div class="skill-item padd-15">
-                          <h5>Bootstrap 4.x</h5>
+                          <h5>CSS3</h5>
                           <div class="progress">
-                            <div class="progress-in" style="width: 80%"></div>
-                              <div class="skill-percent">80%</div>
+                            <div class="progress-in" style="width: 85%"></div>
+                              <div class="skill-percent">85%</div>
                           </div>
                         </div>
                         <div class="skill-item padd-15">
-                          <h5>ReactJS</h5>
+                          <h5>JavaScript ES6+</h5>
                           <div class="progress">
-                            <div class="progress-in" style="width: 45%"></div>
-                              <div class="skill-percent">45%</div>
+                            <div class="progress-in" style="width: 65%"></div>
+                              <div class="skill-percent">65%</div>
                           </div>
                         </div>
                         <div class="skill-item padd-15">
-                          <h5>WordPress</h5>
+                        <h5>React</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 45%"></div>
+                          <div class="skill-percent">45%</div>
+                        </div>
+                      </div>
+                        <div class="skill-item padd-15">
+                          <h5>NodeJS</h5>
                           <div class="progress">
-                            <div class="progress-in" style="width: 55%"></div>
-                              <div class="skill-percent">55%</div>
+                            <div class="progress-in" style="width: 35%"></div>
+                              <div class="skill-percent">35%</div>
                           </div>
                         </div>
                       </div>
@@ -675,26 +683,34 @@
                   <div class="row">
                     <div class="form-item col-6 padd-15">
                       <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Name*">
+                        <label>
+                          <input type="text" class="form-control" placeholder="Name*">
+                        </label>
                       </div>
                     </div>
                     <div class="form-item col-6 padd-15">
                       <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Email*">
+                        <label>
+                          <input type="text" class="form-control" placeholder="Email*">
+                        </label>
                       </div>
                     </div>
                   </div>
                   <div class="row">
                     <div class="form-item col-12 padd-15">
                       <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Subject*">
+                        <label>
+                          <input type="text" class="form-control" placeholder="Subject*">
+                        </label>
                       </div>
                     </div>
                   </div>
                   <div class="row">
                     <div class="form-item col-12 padd-15">
                       <div class="form-group">
-                        <textarea class="form-control" placeholder="Your Message. . ."></textarea>
+                        <label>
+                          <textarea class="form-control" placeholder="Your Message. . ."></textarea>
+                        </label>
                       </div>
                     </div>
                   </div>
@@ -749,7 +765,7 @@
         </ul>
         <h5>Body Skin</h5>
         <label>
-          <input type="radio" class="body-skin" name="body-style" value="light" checked="true">
+          <input type="radio" class="body-skin" name="body-style" value="light" checked>
           Light
         </label>
         <label>
